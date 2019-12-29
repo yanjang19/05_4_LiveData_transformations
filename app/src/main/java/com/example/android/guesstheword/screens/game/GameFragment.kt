@@ -82,4 +82,6 @@ class GameFragment : Fragment() {
         findNavController(this).navigate(action)
         viewModel.onGameFinishComplete()
     }
+
+
 }
